@@ -1,0 +1,18 @@
+{
+  "name": "smart-money-delta",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SmartMoneyDelta – a divergence engine tracking insider transactions, buybacks and ownership changes to surface mismatches between ownership signals and price responses.",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "node ./scripts/test.js",
+    "smoke": "node ./scripts/smoke.js",
+    "start": "node packages/server/dist/index.js",
+    "postinstall": "echo 'Post-install complete'"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
