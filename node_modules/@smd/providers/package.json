@@ -1,0 +1,14 @@
+{
+  "name": "@smd/providers",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "echo skipping build"
+  },
+  "dependencies": {
+    "@smd/core": "file:../core",
+    "@smd/data": "file:../data"
+  }
+}
